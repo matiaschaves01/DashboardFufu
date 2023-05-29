@@ -3,7 +3,7 @@ function MovieList(props) {
     <tr>
       <td>{props.id}</td>
       <td>{props.name}</td>
-      <td>{props.price}</td>
+      <td>{props.price || props.email }</td>
       <td>{props.createdAt}</td>
     </tr>
   );
