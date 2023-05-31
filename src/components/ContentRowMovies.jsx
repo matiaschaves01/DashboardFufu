@@ -8,12 +8,12 @@ let productInDataBase = {
     icono: "fas fa-film",
 }
 
-// let amount ={
-//     color:   "success",
-//     titulo: "No sabemos",
-//     icono: "fas fa-award",
-//     valor: 0
-// }
+let amount ={
+    color:   "success",
+    titulo: "Stock",
+    icono: "fas fa-award",
+    valor: 35
+}
 
 let user = {
     color:   "warning",
@@ -56,7 +56,7 @@ function ContentRowTop(){
         
     },[])
     
-    let cardProps = [products,users];
+    let cardProps = [products,users,amount];
     let arrayProps = [products]
     return (
         <>
